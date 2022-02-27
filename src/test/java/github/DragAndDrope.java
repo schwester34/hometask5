@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Selenide.*;
 
-public class DragAndDrope {
+public class dragAndDrope {
         @BeforeAll
         static void beforeAll() {
             Configuration.browserSize = "1920x1080";
