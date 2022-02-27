@@ -18,7 +18,7 @@ public class Testt {
     @Test
     void  pagesContentSoftAssertionsAndJUnit5(){
        // открыть страницу github.com
-        open("https://github.com/");
+        open("/selenide/selenide");
         // Перейти в раздел Wiki проекта
         $("#wiki-tab").click();
         // В списке страниц (Pages) ищем SoftAssertions
