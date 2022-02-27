@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class Testt {
+public class TestForJUnit5 {
    @BeforeAll
     static void beforeAll () {
        Configuration.baseUrl = "https://github.com";
