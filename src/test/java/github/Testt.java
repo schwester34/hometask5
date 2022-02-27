@@ -16,7 +16,7 @@ public class Testt {
    }
 
     @Test
-    void  PagesContentSoftAssertionsAndJUnit5(){
+    void  pagesContentSoftAssertionsAndJUnit5(){
        // открыть страницу github.com
         open("https://github.com/");
         // Перейти в раздел Wiki проекта
@@ -28,6 +28,4 @@ public class Testt {
         // Ищем кусок кода для JUnit5
         $("#wiki-body").shouldHave(text("@ExtendWith({SoftAssertsExtension.class})"));
     }
-
-
 }
