@@ -22,7 +22,6 @@ public class DragAndDrope {
 
         @Test
         void dragAndDropTo() {
-
             open("/drag_and_drop");
             $("#column-a").dragAndDropTo("#column-b");
             $$("#column-a").shouldHave(texts("B"));
