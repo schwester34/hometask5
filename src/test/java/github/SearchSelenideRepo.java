@@ -16,7 +16,7 @@ public class SearchSelenideRepo {
         $("[data-test-selector=nav-search-input]").setValue("selenide").pressEnter();
         // нажимаем на линк от первого результата поиска
         $$("ul.repo-list li").first().$("a").click();
-        // check: в заголовке встречается selenide/selenide
+        // в заголовке встречается selenide/selenide
         $("h1").shouldHave(text("selenide / selenide"));
     }
 }
