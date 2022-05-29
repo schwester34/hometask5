@@ -17,11 +17,11 @@ public class TestForJUnit5 {
 
     @Test
     void  pagesContentSoftAssertionsAndJUnit5(){
-       // открыть страницу github.com
+       // Открыть страницу github.com
         open("/selenide/selenide");
         // Перейти в раздел Wiki проекта
         $("#wiki-tab").click();
-        // В списке страниц (Pages) ищем SoftAssertions
+        // В списке страниц ищем SoftAssertions
         $("#wiki-pages-filter").setValue("SoftAssertions").pressEnter();
         // Кликаем по SoftAssertions
         $$(".filterable-active a").findBy(text("SoftAssertions")).click();
